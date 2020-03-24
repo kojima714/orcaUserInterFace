@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrcaClientTest", "OrcaClientTest\OrcaClientTest.csproj", "{BD508D6F-0619-4756-BDAC-5A216C733F4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrcaClient", "OrcaClient\OrcaClient.csproj", "{87E831A3-339F-4A4B-BB8C-0E445AB9F8E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BD508D6F-0619-4756-BDAC-5A216C733F4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD508D6F-0619-4756-BDAC-5A216C733F4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD508D6F-0619-4756-BDAC-5A216C733F4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD508D6F-0619-4756-BDAC-5A216C733F4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E831A3-339F-4A4B-BB8C-0E445AB9F8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87E831A3-339F-4A4B-BB8C-0E445AB9F8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87E831A3-339F-4A4B-BB8C-0E445AB9F8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87E831A3-339F-4A4B-BB8C-0E445AB9F8E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AA1F1156-A00D-41F8-BB06-69FA91FABC0E}
+	EndGlobalSection
+EndGlobal

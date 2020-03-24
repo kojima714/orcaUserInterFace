@@ -1,0 +1,21 @@
+﻿<Window x:Class="OrcaClient.ShellView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:cm="http://www.caliburnproject.org"
+        xmlns:local="clr-namespace:OrcaClient"
+        mc:Ignorable="d"
+        Title="ShellView" Height="450" Width="800">
+    <StackPanel Margin="10">
+        <TextBlock Text="名前を入れてね！"></TextBlock>
+        <TextBox
+            Width="250"
+            Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}">
+        </TextBox>
+        <Button 
+            Margin="0 10 0 0"
+            Content="Say!"
+            cm:Message.Attach="SayHello" />
+    </StackPanel>
+</Window>
